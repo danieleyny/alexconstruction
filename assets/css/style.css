@@ -12,10 +12,15 @@ ul {
     list-style: none;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 .active {
-    color: #5d8c91;
-    text-decoration: underline;
-    font-weight: bold;
+    border-left: 2px solid rgb(232, 175, 175);
+    border-right: 2px solid rgb(232, 175, 175);
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 /* Nav Bar */
@@ -39,6 +44,10 @@ ul {
     margin: 0 30px;
 }
 
+.navpages {
+    color: whitesmoke
+}
+
 header {
     width: 100vw;
     height: 100vh;
@@ -48,6 +57,8 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+
+    
 }
 .oplayer {
     background-color: rgba(3, 7, 12, 0.468);
@@ -98,8 +109,62 @@ header {
     cursor: pointer;
     display: none;
 }
+
+
+/* Our Work Preview */
+section {
+    width: 65%;
+    margin: 80px auto;
+}
+
+.title-ourwork {
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col img{
+    width: 400px;
+    height: 300px;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourwork-preview .row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #49497e;
+    margin: 20px auto;
+}
+p {
+    color: #707071; 
+    padding: 0px 40px;
+}
+
+.ourwork-preview .ctn {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
 /* Mobile Device*/
-@media only screen and (max-width:850px){
+@media only screen and (max-width:1000px){
     .menu-btn {
         display: block;
         z-index: 3;
@@ -107,9 +172,12 @@ header {
     }
     .header-content {
         z-index: 1;
+        
+        
     }
     .navbar {
         padding: 0;
+        
     }
     .logo{
         position: absolute;
@@ -128,6 +196,8 @@ header {
         margin-top: -900px;
         transition: all 0.7s ease;
         z-index: 3;
+        font-size: 1.6rem;
+        
     }
     .mobile-menu {
         margin-top: 0px;
@@ -138,4 +208,27 @@ header {
         margin: 30px auto;
         
     }
+    .header-content h2{
+        font-size: 4vmin;
+    }
+    .header-content h1{
+        font-size: 6.5vmin;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col {
+        margin: 20px auto;
+    }
+    .col img {
+        max-width: 90%;
+    }
+    .row .col img{
+        height: 320px;
+    }
+    
+  
 }
+
