@@ -6,7 +6,3 @@ menuBtn.addEventListener('click',()=>{
 })
 
 
-
-window.addEventListener("load", () => {
-    document.querySelector("body").classList.add("loaded"); 
-   });
