@@ -194,9 +194,9 @@ p {
         justify-content: center;
         background: rgb(74, 86, 101);
         margin-top: -900px;
-        transition: all 0.7s ease;
+        transition: all 1s ease;
         z-index: 3;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         
     }
     .mobile-menu {
@@ -228,7 +228,34 @@ p {
     .row .col img{
         height: 320px;
     }
+    h4 {
+        font-size: 5vmin;
+        color: #49497e;
+        margin: 20px auto;
+    }
+
+    section h1 {
+        font-size: 8vmin;
+    }
+
+     .ctn {
+        font-size: 1.4rem;
+    }
+    section p {
+        font-size: 1.1rem;
+    }
     
   
 }
 
+
+@media only screen and (max-width:450px){
+    .row .col {
+        margin: 20px auto;
+    }
+    
+    .row .col img{
+        height: 220px;
+        width: 400px;
+    }
+}
