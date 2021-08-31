@@ -37,7 +37,7 @@ body, html {
 .nav-links {
    display: flex;
    align-items: center; 
-   font-size: 1.2rem;
+   font-size: 1.4rem;
 }
 
 .nav-links li{
@@ -98,6 +98,7 @@ header {
     background: #5d8c91;
     border-radius: 30px;
     color: whitesmoke;
+    font-size: 1.2rem;
 
 }
 
@@ -113,7 +114,7 @@ header {
 
 /* Our Work Preview */
 section {
-    width: 65%;
+    width: 85%;
     margin: 80px auto;
 }
 
@@ -143,9 +144,9 @@ section {
 }
 
 h4 {
-    font-size: 3vmin;
+    font-size: 5vmin;
     color: #49497e;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 p {
     color: #707071; 
@@ -244,6 +245,12 @@ p {
     section p {
         font-size: 1.1rem;
     }
+    .header-content {
+        margin-bottom: 300px;
+        color: rgb(254, 254, 254);
+        text-align: center;
+        z-index: 1;
+    }
     
   
 }
@@ -257,5 +264,11 @@ p {
     .row .col img{
         height: 220px;
         width: 400px;
+    }
+    .header-content h2{
+        font-size: 7vmin;
+    }
+    .header-content h1{
+        font-size: 6vmin;
     }
 }
