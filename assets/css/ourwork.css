@@ -544,9 +544,9 @@ p {
   
   .section-title3 h1{
     display: inline-block;
-    font-size: 35px;
+    font-size: 7vmin;
     font-weight: 700;
-    color: #000;
+    color: rgba(3, 7, 12, 0.763);
     margin: 0 0 5px;
     position: relative;
   }
@@ -628,6 +628,9 @@ p {
       flex: 0 0 100%;
       max-width: 100%;
     
+    }
+    .section-title3 h1{
+        font-size: 11vmin;
     }
   }
   
