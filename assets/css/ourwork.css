@@ -519,6 +519,121 @@ p {
 
 
 
+/* Gallery Section*/
+
+.container2{
+    max-width: 1240px;
+    margin: auto;
+  }
+  
+  .row2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio{
+    background-color: #fff;
+    padding: 100px 7px;
+  }
+  
+  .section-title3{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .section-title3 h1{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 5px;
+    position: relative;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+  
+  
+  .portfolio .section-title3 h1:before{
+    left: 30%;
+  }
+  
+  .portfolio .filter-buttons{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio .filter-buttons ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .portfolio .filter-buttons ul li{
+    color:black;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 0px;
+  }
+  
+  .portfolio .filter-buttons ul li.active2{
+    color: #5f9bce;
+    border-bottom: 2px solid #5f9bce;
+  
+  }
+  
+  .portfolio .portfolio-gallery {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio .portfolio-gallery .item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    position: relative;
+    padding: 8px;
+  }
+  
+  .portfolio .portfolio-gallery .item .inner{
+    position: relative;
+  }
+  
+  .portfolio .portfolio-gallery .item img{
+    width: 100%;
+    height: 320px;
+    display: block;
+  }
+  
+  
+  /* Gallery Responsive Section */
+  @media(max-width: 767px) {
+    .portfolio .portfolio-gallery .item{
+      flex: 0 0 50%;
+      max-width: 50%;
+      position: relative;
+      padding: 8px;
+    }
+  }
+  
+  @media(max-width: 500px) {
+    .portfolio .portfolio-gallery .item{
+      flex: 0 0 100%;
+      max-width: 100%;
+    
+    }
+  }
+  
+  
+/* End Gallery Section*/
+
 /* Footer Section*/
 .main {
     max-height: 550px;;

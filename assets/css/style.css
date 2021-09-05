@@ -767,7 +767,7 @@ p {
     .text,
     .information,
     .social-media p {
-      font-size: 0.8rem;
+      font-size: .9rem;
     }
   
     .title {
