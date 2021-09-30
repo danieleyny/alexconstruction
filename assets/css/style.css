@@ -90,7 +90,7 @@ header {
     
 }
 .oplayer {
-    background-color: rgba(3, 7, 12, 0.468);
+    background-color: rgba(3, 7, 12, 0.153);
     position: absolute;
     top: 0;
     left: 0;
@@ -925,7 +925,7 @@ p {
         width: 400px;
     }
     .header-content {
-        margin-bottom: 215px;
+        margin-bottom: 165px;
         color: rgb(254, 254, 254);
         text-align: center;
         z-index: 1;
@@ -935,7 +935,7 @@ p {
     }
     .header-content h1{
         font-size: 10vmin;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         
     }
     .boroughnyc-title {
