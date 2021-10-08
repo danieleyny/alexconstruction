@@ -925,16 +925,16 @@ p {
         width: 400px;
     }
     .header-content {
-        margin-bottom: 165px;
+        margin-bottom: 195px;
         color: rgb(254, 254, 254);
         text-align: center;
         z-index: 1;
     }
     .header-content h2{
-        font-size: 8vmin;
+        font-size: 7.5vmin;
     }
     .header-content h1{
-        font-size: 10vmin;
+        font-size: 9.5vmin;
         margin-bottom: 30px;
         
     }
@@ -951,3 +951,11 @@ p {
     }
    
 }
+
+
+
+
+
+
+
+
