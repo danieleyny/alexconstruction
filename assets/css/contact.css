@@ -229,7 +229,7 @@ p {
 
 /* contact section */
 
-.container {
+.container-contact {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -742,7 +742,7 @@ p {
   }
   
   @media (max-width: 480px) {
-    .container {
+    .container-contact {
       padding: 1.5rem;
     }
   
